@@ -1,0 +1,20 @@
+--Patches applied to DWM:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1) Functional Gaps:
+ https://dwm.suckless.org/patches/functionalgaps/
+2) Per Tag:
+ https://dwm.suckless.org/patches/pertag/
+3) Actual Fullscreen:
+ https://dwm.suckless.org/patches/actualfullscreen/
+4) Restart DWM:
+ https://dwm.suckless.org/patches/restartsig/
+5) Alt Tab:
+ https://dwm.suckless.org/patches/alt-tab/   
+6) Auto Start:
+ https://dwm.suckless.org/patches/autostart/
+7) Center Window Keybind:
+ https://dwm.suckless.org/patches/movecenter/
+8) Bar Padding:
+https://dwm.suckless.org/patches/barpadding/
+9) Move Stack:
+https://dwm.suckless.org/patches/movestack/
