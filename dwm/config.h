@@ -86,7 +86,9 @@ static const Layout layouts[] = {
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-c", "-l", "12", "-fn", dmenufont, "-nb", "#282a36", "-nf", col_gray3, "-sb", col_accent,"-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *flamcmd[] = { "flameshot", "gui", NULL };
+static const char *browsercmd[]  = { "firefox", NULL };
+static const char *flamcmd[]  = { "flameshot", "gui", NULL };
+static const char *filemancmd[] = { "pcmanfm", NULL };
 
 #include "movestack.c"
 static const Key keys[] = {
@@ -117,14 +119,15 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-	{ MODKEY,                       XK_r,      spawn,         SHCMD("firefox &") },
 	{ 0,				XK_Print,  spawn,      	   {.v = flamcmd } },
+	{ MODKEY,			XK_n,      spawn,      	   {.v = filemancmd } },
+	{ MODKEY,			XK_r,      spawn,      	   {.v = browsercmd } },
 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -5 } },
 	{ MODKEY,                       XK_equal,  setgaps,        {.i = +5 } },
 	{ MODKEY|ShiftMask,             XK_minus,  setgaps,        {.i = GAP_RESET } },
 	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = GAP_TOGGLE} },
 	{ MODKEY,                       XK_c,      movecenter,     {0} },
-	{ Mod1Mask,            		XK_Tab,    altTabStart,	   {0} },
+	{ Mod1Mask,             	XK_Tab,    altTabStart,	   {0} },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
