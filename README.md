@@ -85,6 +85,7 @@ to install alongside the rice, I've neatily gathered them up in one git reposito
  Open Firefox: MOD + R.
  
  Open pcmanfm (File Manager): MOD + N.
+
  Toggle bar:   MOD + B.
 
 
