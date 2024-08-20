@@ -82,7 +82,8 @@ to install alongside the rice, I've neatily gathered them up in one git reposito
  3) JetbrainsMono
  4) fontawesome
  5) flameshot
- 6) xkblayout-state (AUR)
+ 6) pcmanfm
+ 7) xkblayout-state (AUR)
 
 |=========================================================================|
 |=============================INSTRUCTIONS================================|
