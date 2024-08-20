@@ -1,4 +1,4 @@
-==Fleppy's Rice===
+# Fleppy's Rice
 Fleptor's rice of the dwm window manager.
 
 Ricing is a the process of customising visual aspects of the operating system based on user perference,
